@@ -14,6 +14,53 @@
             <h1>Catch The Insect</h1>
             <button class="btn" id="start-btn">Play Game</button>
           </div>
+          <div class="screen">
+            <h1>What is your "favorite" insect?</h1>
+            <ul class="insects-list">
+              <li>
+                <button class="choose-insect-btn">
+                  <p>Fly</p>
+                  <img src="http://pngimg.com/uploads/fly/fly_PNG3946.png" alt="fly">
+                </button>
+              </li>
+              <li>
+                <button class="choose-insect-btn">
+                  <p>Mosquito</p>
+                  <img
+                    src="http://pngimg.com/uploads/mosquito/mosquito_PNG18175.png"
+                    alt="mosquito"
+                    />
+                </button>
+              </li>
+              <li>
+                <button class="choose-insect-btn">
+                  <p>Spider</p>
+                  <img
+                    src="http://pngimg.com/uploads/spider/spider_PNG12.png"
+                    alt="spider"
+                    />
+                </button>
+              </li>
+              <li>
+                <button class="choose-insect-btn">
+                  <p>Cave Cricket</p>
+                  <img
+                    src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDw4NDw8PEBAODQ4PDQ0PDQ8PDxAPFREWFhURFRUYHSggGBolGxUVITIhJSkrLi8uFx8zODMtNygtLisBCgoKDg0OGRAQGy0lICYrLS0vLSstLSsvLy0tLS0vLy0rLS0tLS0tLSsrLSs1Ky0tLS0rLS0vKy0tLS0tLS0tLf/AABEIAMIBAwMBIgACEQEDEQH/xAAbAAACAgMBAAAAAAAAAAAAAAAAAQIEAwUGB//EAEEQAAIBAwICBwQGCAUFAQAAAAECAAMEERIhBTEGEyJBUWGBMnGRoRRCUmKxwQcjM3KCkqLRNENTc+EkJWTw8RX/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQMCBP/EACgRAQACAQQCAQQBBQAAAAAAAAABAhEDEiExQVHwImFxgTIEE7HR4f/aAAwDAQACEQMRAD8A9ihHCAoQhAUI4QFCOKAoRwgKKOEBRSUUBQjhAjCOEBRSUUBQjigKKSigKKSigRhHCVEYjJRQFFHiECMI4Qi9CEJHQhCEAikgJqLvpNY0apoVLhVqB1RhpchXOMKWAwDuJJnCxEz02sJIiKVCkK1RUUuxCqoySeWJOa3pNairZ10JI7BII7iN5JnEZWIzOEOC9ILW9NRbdyxp41AqVOD3jPMTaETynoHcCjxFKecCtTdCPE4yPwM9YYTPS1N9ctNbTilsQhCOE1ZFFJRQFFJQgRhHCBGElFAjCOECMJKLECOIYkooEYpKEqI4ikooEYSUIFyEISKIo4QIVgdD456GxjnnG08G4laVOvrs+O0+Tvvuowce4DfvnvyzxbpjTf6U9JB2hVqUiPEJllP8m8839RE8PV/S2xMvVujd/wDSbK2r5BL0VFQj/UXsv/UDNhPP/wBEl26Lc2NQ8nNxQz4HC1F+Ok/xGegmb0nNYlheMWmClDpCSLS4xz6pvwl+a3pK+mzuG8KTfhFv4y5r3DzGlwo2tayvNRIbqqoPgDsw+c9gzkA+IzOA6Sp/2a1uAN6dOnn91gB+OJ1XRO/FzY29bOSaYVv3l2P4TLSjbMx+2urO6It+m0ijMJuxKEcICijhAUI4oChHCBGEcICikooCikooEYQdgOZA95mA3achlj90EyjNFMPW1D7NPHmxx8odXUPNwPJRCMsJh+i/ff8AmhA2UIQkURxRiAxPPf0hUUt66XeO0WpV9P2mokB19U0gz0Kcr+kuzFSx60gk29VHyOYRuw3p2gfSZ6tc1aaU4tDk+K3K8NvaFyhJpqy1AR9e2cb48SUPxxPVQwYBlIKsAysORBGQRPFuPW7XPB7C4Ht2b1bCuM/VQE0gf4Qv8wnbfom439K4eKDH9ZZN1JB59V/lH0GV/gnOlw61IzGfTsprekiarSuvjTb8JszNX0mJFpcY59W2PhNLdSyr3DV1bIVuCNRPfZnHvC5H4TQ/oZvG+j1rR85R+tp5+y3MfEfOdf0fTVw+kp77fHxWee8CvRY3VMkgAHq6o+4difwPpMrW2zVtWu6LQ9XMUlzGRyIyDK1e5FIM9TZFBY1BuAB4jmJtM4YM8JR4bxi3ugTbuKuDhgARp/ezymsrdMrOncG2diuhjTdyvYV9WM5+znIzJN6x5dRS0+HQxSUU6clCOEBQhCAoSNaqqDLsFHmcSv8ASmb9nTJH237C/A7n4QLMxVbhE9pgPLv+Ex/Rnb9pUP7lPsD485lpW6J7KgefM/GBi+ks3sU2P3n7A/vDqqje0+nyQfmZZigV1tEG+NR8WOozKFxyGJKEqFFJRGBGEMRwLMIQkURwhAJg4jaCvQrUG5VaTofVSMzPGIHmPArdno8W4dgaqtoLuiuOdVBob4kUx6yh0Yrpwy4FYbU2/V3K77pnnjxB39CO+bSpUNnx+mWbsVa/V4PdSuV7Pp1oA9Joek1vUFzdUydOitUXA70B7PqV0n1njxMRH2eviZ/L2cEMAykEMAVYHIIO4Imt6Rf4Wv8A7bfhOU/Rh0g1KeG1Wy1MFrRj9akOdL3rzHl+7Oq6QHNrcD7jD5T07otXLz7ZrbB9Gh/0lD/bH4TyHjNsVu6+oH9owJx2c6j+WJ6/0ZH/AElDypjPwnm3Sne6rFalLQarAjWNx5YmOtH0Q10Z+uXZ9AOLdfbdS5zUtsId92T6p/L0m16SsVsrwjmLatj36DPMujfEjaXtOoCOrY6KuOWhu/0ODPTelLYsbtv/AB3/AAnenfNPw51KYv8Al570GqVrE07uqQLa4L0am24ZBlWPzkehfAGv3vnuhhSjdU2MlatV2YP/AA4/qm8oGm3R96jjICO6A91TrML88TY/o5ZTa1GBGTXOR34VQo+YMyrXM1rPWMtbWxFrR3nDF0H4jWHW8OugFqWzlKJB50wPY9BgjxU+U6wict01sKiaeJW21Whp64Ae3TB2Y/u75+6T4TfcI4gl1Qp10+sO0uclHHtKfcZtScTsnx/hheM/VHyVqGIq1RUUu7BVUZZmOAB4kygLirX/AGINOkf8917bf7aHu+8fgZplxELNzdU6eNbbn2VALO3uUbmYdVepyAor4thqpHkOS+ufdM1tZpTyQCWb2qjHU7e9j+HKZoOFejZop1YLP/qOdTf8ekzmOEqIwjhAjCOECMI4SojCMxShQhCQWI4o5FEROMDxjidMjHwPgYDjEw0quTpbZh8x4iZYHD/pJ4UHahdAlWVSmscwyHXTOO/BztNT01alWajdphlu6FN6gU5zVwE5eQC/Gdt0wtDWsa4XOpFFVcDJOg6iPUAieZWvDqla2rtSbUbdKOVBwwRmbCg908urmtvy9Wli1YmfCnTDIyVKDkVKDhqb7ZDqeR/tPRW6VW1Wwa5qMEZk0VKGcuK/IoB3jO4PgZ5zw9Gp01SooDMToYe/2G85U4qGZGRQdeoYwAME8hkeZ+cyrfE49tbae7n03Nxx6rcqluzlKSAaKKZAYfab7RmsvKD1KoUEAp7GMdnbcH3/AJeczcK4cGK1STlRgr3gqACD8DMPCawqVqr41Yc+1yzmTPl1EY4VL1Or0aqgBI2z5cvdOkodOKjWlSzuD1tOrTFOnX21U/3vtD5++YbyhTraldRkAaSu3/vOczdUNCsmdgTuN85/DeWlvuWrEvT+IUlXglvQU7VqyjI3yoqNUJH8ok+jVL6DTs6uSaV4pFQ8grMzFD5bHE8x4D0kqUmp21Zy1r1hamCf2LsMFt+49/d3+M9suLSibG3tazrTDUKQVidJDBRuM+BmsVnOfURhhacRifMt2QCCNiCMEHcEGcJba+EXb0gGqWt0C1JAQGDrgA78gCcE+GD3TdnjD24W2YdZXIAob4Vx9tj3KO8yD8KpVqbio/WXDdprk7frApCqo+rTGT2fzM7vO7E17j5hnWNv8up+ZbGjw9nYVbkh2BDU6I/Y0iORA+s33j6ATYGc10S44agezr9m4tiVweboDjPmRy92DOi1zWkxMZhneJicSlCKOdOShCEBQjgYCijigKEZilQojHCURhHiEgzwEISKlCIGOBirUQ3kR7LDmDMAuyhC1ts+zUHsN7/Ay5E1MMCCAQeYIyJJj0sSb6SjZwV0tnw043nmvQlEp3VShn9Ve0alHJ/1kGtT8Gaddxy1ehb3FSjVKqKL6qTdpdxjs+B3nBXlGpb21lXpqwNNzWV+52FRmG/mu3oJ5ta0xaPs9OjXNZj2XSGzZajU8hWUk1AcElgTuBjxHOailTdVRXADEZDg5DeR88cxOv6X3FO4r2z0CGWrQFWpsTzG2cb8hNXWs1YFeaNuDjGD3YmN45nDWk/TGXP0TUo1HuMFwyaSq7g6js+PHYg+YlewU2rOana6zLsMbqeY/t8JubSkQ70agyygsp+0h2YfIGVhaM1c0Km4IYq4GOwV28juPnOctcQy0kS7BZHZSq6VZTyONwR6znyWFKrUqbLTVi2AN9PMgn3TfWnChb6urZsMCcbe145xNd0r6PPcUKIo51pnsFtIcNjV5cwJ3TG7bPTi04rmO3PXdSmKRqjSy6Q2AVJIZgu2efOdr0Y6X3lOgprqlcW4ZbJ6jnWaNQKuHH1tOMDJBI7++aqzsqdBaVtUo6yiINeobZIHs+ZE6PohSRGeoaSllbShZQSNh2seO/OaxPiGd8d2b6haK1IVQK7137VR1t1FAZ36tA5GFH3TLvDeJaMo9GquNwdIbbx2MuW7s51OfSXXolgppjDJurHYHxU+RmkacV5h57Xm3EuZ6QW+atG+tG/Xqyq6YwWGNjjv27JHeCPCdPwji1K4RSMpUx26TDDK3eB4jMitvSrDU+zK3aXkyuO4ynf2C+1TyGHKoowc92rx9/OTbaszavnwu6LRFbePLoITnKfGatLCVlyO6oNz/wA/jN1ZVxVUOrBlPIg/Kd01K24jv04tSarMUYECJo4KKPMICiMcIChCEoURjiMIUUcUCxHCEiiMRCTEAjEi7YBPh4c5X/8A0KQ9s9WfBxiczasdysVmelXpP/hKo+0aY/rH9pW4hYLU4X1RGDTtabaSNwyKCR8jK/S3ilNrZqVN8uzIQQDgYYczJ1uMq1oVCsT9GAJ2IGUxkzz21dPdPPhvXTvtjjy0fRXgOtKrZy1OnTp0s7bbkj5YkruxKEq4048e71lroytamzV21ChWFJFHLfch/cQx+U3vFbShWXQ7sTjbSdTfCcUpFqcdu9S01vy4o2SVSlQHDIWww37uXuOxmGvbKWUk6WXwPyPlMfFOE9Q5FI1RnxXTKdOjV8GPoZnNOWkX4bK2A16nC4GRpPfkY/OYbhP1Zbup1MB/Ij/5KTM3ImFwGamAgJbJyPHl+WZZ4gjOVUvrd3cAinTbS5yKgI/KbHglUU6QO/bJc+O/L5ATSUwzNcB8oDTQY+tgVFLD4S8lfOAo2GwwJpSXOp6dXa8cC7BBnxM21rxQ1PafSPBdvnOHpUarclY+4GbzhPD6uRnA/eOJvWZea0Q6epRGVq0jlh7atuKi+HkfAzZAgjb4SpbI4AHY9CTJVaT81xnw5TqIw5mcq17woP2tXvQqCsqUODYBCMEIJIdS4ffu8x6zdqpxud5iqUSO0CZLaVbdwtb2jqVShY1+VW4aooGMDKE+epSDLFrZLSYsh0hgNS7kMRnByxJ75np7yekRXSrXn/pOpaTyJHVHpHhCaOCzFmTiMBQjgZRAxYksxQgxFCECyIQEcimJICICSgIiY61slQYdQw8xMsBJMRPErEzHTnekvC6Yojq6Y1l1VcZzjwAlTjqCnbW9mq6atZqSMATuQAC3mM4m7DCrcEn2LYc+7X3n0x/TKNKyNzci9Y9iicUEI9rH1vmZ47UiZnbHfH68y9VbYiN09c/6hsRwunpRGyyoqqE1Np2GBtmWqdNVGFUKPAACD1lHMj3d/wAJA1GPsr6naeuIiOnmmZntN0U8wD7wDKt1SpspQgYPMDb8Jm6sn2j6DYSBdF9/luYMtBV6N0mOVXHrJLwFE3HduO4j1E3mtjyGPMxChn2jnynOyPS75aOrwylUwHQZHJlxn58/WXLXhKry0+80aefkBNotIDkJLE6isJNpYKdFh9jHkmJl0DwksQxK5QNIRaPOZYpRj398YaTxEVgYMaTtM4bMx1EyJjpVMHBgWIRZhAeYjCEAMjHCUKKOEqFCOKQZ5NREqyciiEIQCYL646tNvbbs0x4ueX95lqMQCQMnuGcDPmfCaKu9TWGZi1YKQiKuArEb6c933plq32xw006bpOmjBEtBku/buWXcgH6vvO03C0zgL7CgYCqd8e+U+FUepp4Y66z9qrjclj3S3h25nSPAbn4znRpiMz8+eV1LZnCLGnT7hk+Ayx/MxCs7eymB4vt8plSmByG/idz8ZKbYZsHUk+0xPkNhMi01HICShKhQhHAjCPEMQAQhFAIRxYgEUcRgLEwVVwZYkHXMCCmSDQCSJECeYCRElKCEIGAoQhKhQhCQXBCIRyKIjHCBQBruCdSoTyVVzj3sYrOwKFnZyzvjU31iPDPcPdNhFM/7cZzLvfOMQiqAbAYjxHCaOCxCEIChHFAREIQgEIRQHFCEAhCIwCKBhAJGSigKRaSiMohGDAyMCYMcjHCCIxxGUKEISC7CEJFEIQgEUcUAhCLMAhFCAQhCAoRxQCEIQFCOKUEUDFIHEYZhKCIxxGARRxQhYkCJMyMBCORkgZQ4oQgKEIQLkcISKIoQgEUIQFCEIBCEIBCEIChCEAhCEBQMIQImIwhAIQhAUIQgEIQlREyMIQImSEIQHFCEAhCED//Z"
+                    alt="cave-cricket"
+                    />
+                </button>
+              </li>
+            </ul>
+          </div>
+      
+          <div class="screen game-container">
+            <h3 id="time">Time: 00:00</h3>
+            <h3 id="score">Score: 0</h3>
+            <h5 id="message">
+              Are you annoyed yet? <br>
+              You are playing an impossible game!
+            </h5>
+          </div>
           
     <script src="script.js"></script>
   </body>
