@@ -21,3 +21,20 @@ a {
 h1 {
   line-height: 1.4;
 }
+
+.btn {
+  border: 0;
+  background-color: #fff;
+  color: #516dff;
+  padding: 15px 20px;
+  font-family: inherit;
+  cursor: pointer;
+}
+  
+.btn:hover {
+  opacity: 0.9;
+}
+  
+.btn:focus {
+  outline: 0;
+}
