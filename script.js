@@ -5,7 +5,6 @@ const game_container = document.getElementById('game-container');
 const timeEl = document.getElementById('time');
 const scoreEl = document.getElementById('score');
 const message = document.getElementById('message');
-
 let seconds = 0
 let score = 0
 let selected_insect = {}
@@ -46,6 +45,8 @@ function createInsect() {
   insect.innerHTML = `<img src="${selected_insect.src}" alt="${selected_insect.alt}" style="transform: rotate(${Math.random() * 360}deg)" />`
 
   insect.addEventListener('click', catchInsect)
+
+  game_container.appendChild(insect)
 }
 
 function getRandomLocation() {
@@ -58,6 +59,14 @@ function getRandomLocation() {
 
 function catchInsect() {
   increaseScore()
+  this.classList.add('caught')
+  setTimeout(() => this.remove(), 2000)
+  addInsects()
+}
+
+function addInsects() {
+  setTimeout(createInsect, 1000)
+  setTimeout(createInsect, 1500)
 }
 
 function increaseScore() {
