@@ -17,7 +17,7 @@ choose_insect_btns.forEach(btn => {
     const img =  btn.querySelector('img')
     const src = img.getAttribute('src')
     const alt = img.getAttribute('alt')
-    selected_insects = {src, alt }
+    selected_insect = { src, alt }
     screens[1].classList.add('up')
     setTimeout(createInsect, 1000)
     startGame()
@@ -57,5 +57,13 @@ function getRandomLocation() {
 }
 
 function catchInsect() {
-  console.log("FUCK YOU")
+  increaseScore()
+}
+
+function increaseScore() {
+  score++
+  if(score > 19) {
+      message.classList.add('visible')
+  }
+  scoreEl.innerHTML = `Score: ${score}`
 }
