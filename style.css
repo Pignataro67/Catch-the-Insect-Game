@@ -43,4 +43,8 @@ header {
   background-color: var(--primary-color);
 }
 
+.movie {
+  width: 300px;
+  margin: 1rem;
+  background-color: var(--secondary-color);
 }
