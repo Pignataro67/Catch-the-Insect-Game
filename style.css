@@ -64,3 +64,7 @@ header {
   justify-content: space-between;
   gap:0.2rem;
 }
+
+.movie-info h3 {
+  margin-top: 0;
+}
