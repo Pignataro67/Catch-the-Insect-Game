@@ -75,3 +75,7 @@ header {
   border-radius: 3px;
   font-weight: bold;
 }
+
+.movie-info span.green {
+  color: lightgreen;
+}
