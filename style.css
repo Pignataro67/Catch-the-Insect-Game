@@ -83,3 +83,7 @@ header {
 .movie-info span.orange {
   color: orange;
 }
+
+.movie-info span.red {
+  color: red;
+}
