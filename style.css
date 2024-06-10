@@ -67,3 +67,8 @@ h1 {
     display: none;
     margin: 30px 0 0;
   }
+
+  .faq-toggle {
+    background-color: transparent;
+    border: 0;
+  }
