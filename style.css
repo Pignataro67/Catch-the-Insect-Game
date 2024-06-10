@@ -80,3 +80,7 @@ h1 {
     right: 30px;
     height: 30px;
   }
+
+  .faq-toggle:focus {
+    outline: 0;
+  }
