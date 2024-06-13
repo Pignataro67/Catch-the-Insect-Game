@@ -15,7 +15,7 @@ h1 {
 }
 
 .faq-container {
-    max-width: 600px;
+    max-width: 595px;
     margin: 0 auto;
   }
 
@@ -32,7 +32,7 @@ h1 {
 
   .faq.active {
     background-color: #fff;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
   }
   
   .faq.active::before,
