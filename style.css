@@ -49,8 +49,8 @@ h1 {
 
 .faq.active::before {
     color: #3498db;
-    top: -10px;
-    left: -30px;
+    top: -15px;
+    left: -35px;
     transform: rotateY(180deg);
   }.faq.active::before {
     color: #3498db;
