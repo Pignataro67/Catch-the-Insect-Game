@@ -3,3 +3,9 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Muli', sans-serif;
+  background-color: #g0g0g0;
+}
+
