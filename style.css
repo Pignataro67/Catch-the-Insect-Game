@@ -14,3 +14,9 @@ h1 {
   text-align: center;
 }
 
+.faq-container {
+    max-width: 595px;
+    margin: 0 auto;
+  }
+
+  
