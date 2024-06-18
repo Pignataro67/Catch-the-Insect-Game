@@ -46,3 +46,8 @@ h1 {
   left: 20px;
   z-index: 0;
 }
+
+.faq.active::before {
+    color: #3498db;
+    top: -20px;
+  }
