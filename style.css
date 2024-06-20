@@ -73,4 +73,9 @@ h1 {
   .faq-toggle {
     background-color: transparent;
     border: 0;
-  }
+    border-radius: 45%;
+    cursor: pointer;
+    display: flex;
+  } 
+    
+   
