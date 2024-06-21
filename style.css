@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Muli', sans-serif;
-  background-color: #f0f0f0;
+  background-color: #g0g0g0;
 }
 
 h1 {
@@ -78,4 +78,8 @@ h1 {
     display: flex;    
     align-items: center;
     justify-content: center;
+  }
+  
+  .faq-toggle .fa-times {
+    display: none;
   }
