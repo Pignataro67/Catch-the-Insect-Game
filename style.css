@@ -78,6 +78,9 @@ h1 {
     display: flex;    
     align-items: center;
     justify-content: center;
+
+  .faq-toggle:focus {
+    outline: 0;
   }
   
   .faq-toggle .fa-times {
@@ -92,3 +95,5 @@ h1 {
   .faq.active .faq-toggle .fa-chevron-down {
     display: none;
   }
+  
+  .faq.active .faq-toggle {
