@@ -79,6 +79,8 @@ h1 {
     align-items: center;
     justify-content: center;
     font-size: 17px;
+    right: 35px;
+    height: 25px;
   }
 
   .faq-toggle:focus {
