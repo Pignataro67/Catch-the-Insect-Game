@@ -9,6 +9,7 @@ body {
   background-color: #g0g0g0;
 }
 
+
 h1 {
   margin: 55px 0 40px;
   text-align: center;
@@ -99,5 +100,9 @@ h1 {
   }
   
   .faq.active .faq-toggle {
+    background-color: #9fb3a8;
+  }
+
+.faq.active .faq-toggle {
     background-color: #9fb3a8;
   }
