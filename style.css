@@ -86,10 +86,15 @@ h1 {
     height: 25px;
   }
 
-  .faq-toggle:focus {
-    outline: 0;
-  }
+.faq-toggle:focus {
+  outline: 0;
+}
   
-  .faq-toggle .fa-times {
-    display: none;
-  }
+.faq-toggle .fa-times {
+  display: none;
+}
+  
+.faq.active .faq-toggle .fa-times {
+  color: #fff;
+  display: block;
+}
