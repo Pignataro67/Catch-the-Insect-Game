@@ -47,3 +47,10 @@ body {
 .panel.active {
   flex: 5;
 }
+
+@media (max-width: 480px) {
+  .container {
+    width: 100vw;
+  }
+
+}
