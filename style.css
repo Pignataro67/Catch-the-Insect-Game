@@ -10,14 +10,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 95vh;
   overflow: hidden;
   margin: 0;
 }
 
 .container {
   border-radius: 5px;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   width: 300px;
 }
@@ -84,7 +84,6 @@ body {
 .user-list .user-info p {
   font-size: 12px;
 }
-
 
 .user-list li:not(:last-of-type) {
   border-bottom: 1px solid #eee;
