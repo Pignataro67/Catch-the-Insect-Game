@@ -37,4 +37,6 @@ body {
 .progress-container::before {
   content: '';
   background-color: var(--line-border-empty);
+  position: absolute;
+  top: 50%;
 }
