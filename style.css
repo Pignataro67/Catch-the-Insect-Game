@@ -45,3 +45,8 @@ body {
   width: 100%;
   z-index: -1;
 }
+
+.progress {
+  background-color: var(--line-border-fill);
+  position: absolute;
+}
