@@ -70,3 +70,7 @@ body {
 .circle.active {
   border-color: var(--line-border-fill);
 }
+
+.btn:active {
+  transform: scale(0.98);
+}
