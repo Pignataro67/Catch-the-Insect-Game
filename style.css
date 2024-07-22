@@ -71,6 +71,11 @@ body {
   border-color: var(--line-border-fill);
 }
 
+.btn {
+  background-color: var(--line-border-fill);
+  color: #fff;
+}
+
 .btn:active {
   transform: scale(0.98);
 }
